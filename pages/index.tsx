@@ -22,6 +22,8 @@ const Home: NextPage = () => {
   const [language, setLanguage] = useState<languageType>("Basic");
   const [generatedGitas, setGeneratedGitas] = useState<String>("");
 
+
+  // Here is how code operares
    const prompt =
    language === "Krishna"
      ? `You are Krishna, answer according to the Bhagavad Gita. Make sure there is a life lessons on morality, strength, discipline and spirituality.${language}`
